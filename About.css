@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.manu-bar{
+
+    padding: 20px;
+    
+    background-color: aqua;
+    }
+    
+    .logo{
+    width: 25%;
+    float: left;
+    }
+    
+    .manu{
+     width: 67%;
+     float: left;
+    }
+    .manu ul{
+        list-style-type: none;
+        display: flex;
+        font-size: 19px;
+        margin-left: 195px;
+    }
+    
+    .manu ul li{
+        margin: 5px;
+        margin-left: 60px;
+    }
+    
+    .card{
+    margin-top: 4px;
+    }
+
+.section{
+    width: 100%;
+}
+.section .container{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+.container .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #88941e;
+}
+.container .title h1::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: #c4d156;
+    border-radius: 25px;
+    display: block;margin: auto;
+
+}
+.content{
+    width: 55%;
+    float:left;
+}
+.image-section{
+    width: 40%;
+    float: right;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.article h3{
+    font-size: 17px;
+    color: #a3a3a3;
+}
+.article p{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #a3a3a3;
+    line-height: 1.5;
+}
+.button{
+    margin-top: 50px;
+}
+.button a{
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: #88941e;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.button a:hover{
+    background-color: #f28f92;
+    color: #fff;
+    transition: 1s;
+}
+.social{
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+}
+.social i{
+     width: 45px;
+     height: 45px;
+     background-color: #f28f92;
+     border-radius: 50%;
+     font-size: 22px;
+     text-align: center;
+     margin: 0px 5px;
+     line-height: 45px;
+     color: #fff;
+}
+.social i:hover{
+    background-color: #88941e;
+    transition: 1s;
+    transform:rotate(360deg);
+}
+    
